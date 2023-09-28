@@ -1,0 +1,9 @@
+pandas
+nltk
+transformers
+sentence_transformers
+pinecone-client[grpc]
+datasets
+
+
+pytest

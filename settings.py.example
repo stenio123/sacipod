@@ -1,0 +1,14 @@
+PDF_FOLDER = "LOCAL_PATH_FOR_INPUT_PDF"
+DATASET_FILE_OUPUT_FOLDER = "LOCAL_PATH_FOR_OUTPUT_DATASET"
+
+# This will truncate the text to first 100 chars on util.py.
+# Pinecone has a limit of 40960 bytes per vector. If you dont want to lose text data you can:
+# - Summarize text
+# - Store in separate DB, and only index the id
+# - Use compression
+MAX_TEXT_LENGTH = 1000
+
+PINECONE_API_KEY = "YOUR_KEY"
+PINECONE_ENV = "YOUR_ENVIRONMENT"
+
+INDEX_NAME = "YOUR INDEX NAME"
